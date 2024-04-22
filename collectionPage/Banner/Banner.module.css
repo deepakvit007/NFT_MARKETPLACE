@@ -1,0 +1,20 @@
+
+
+.banner_img image{
+    object-fit: cover;
+}
+
+.banner_img_mobile{
+    object-fit: cover;
+    display: none;
+}
+
+@media screen and (max-width: 35em) {
+    .banner_img_mobile{
+        display: block;
+    }
+
+    .banner_img {
+        display: none;
+    }
+}
